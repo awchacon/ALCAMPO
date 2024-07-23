@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #000000; /* Fondo negro */
+    margin: 0;
+    padding: 0;
+}
+
+
+h1, h2 {
+    color: #210a93 !important; /* Cambiar color del título */
+    font-style: italic;
+    text-align: center;
+    font-size: 36px; /* Ajuste del tamaño del título principal */
+    font-weight: bold; /* Hacer el título más grueso */
+    margin: 20px 0;
+    font-family: 'Raleway', serif; /* Cambiar la fuente para un look más elegante */
+}
+
+p {
+    color: #ffffff !important; /* Cambiar color del párrafo */
+    font-size: 18px; /* Ajuste para móviles */
+    font-style: italic;
+    font-family: 'Raleway', sans-serif;
+}
+
+.centered-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 10px; /* Ajuste para móviles */
+}
+
+.stButton button {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    font-size: 16px;
+    border-radius: 8px;
+    background-color: #c20404;
+    color: white;
+}
+
+.stMarkdown, .stSelectbox, .stTextInput {
+    color: #ffffff !important; /* Texto blanco */
+}
+
+.stMarkdown div, .stSelectbox div, .stTextInput div {
+    color: #ffffff !important; /* Texto blanco */
+}
+
+.stMarkdown p, .stSelectbox p, .stTextInput p {
+    color: #ffffff !important; /* Texto blanco */
+}
+
+.stMarkdown h1, .stSelectbox h1, .stTextInput h1 {
+    color: #ffffff !important; /* Texto blanco */
+}
+
+.centered-content img {
+    max-width: 50%; /* Ajusta el tamaño de la imagen */
+    height: auto;
+    margin-bottom: 10px; /* Espacio entre la imagen y el texto */
+}
+
+
+
+/* Media Queries para móviles */
+@media (max-width: 600px) {
+    h1, h2 {
+        font-size: 28px; /* Aumentar significativamente el tamaño del título */
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    .centered-content {
+        margin-bottom: 10px;
+    }
+}
