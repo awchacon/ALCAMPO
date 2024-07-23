@@ -23,7 +23,7 @@ st.write("")
 # Menú de opciones
 selected = st.selectbox(
     "Menú",
-    ["Inicio", "Consultas", "Looker"]
+    ["Inicio", "Consultas", "Analytics"]
 )
 
 # Función HomePage
@@ -109,7 +109,7 @@ def mostrar_consultas():
 def mostrar_looker():
     st.markdown("<div class='container centered-content'><div class='contenido'>", unsafe_allow_html=True)
     st.title("Looker")
-    st.write("Aquí se mostrará el contenido de Looker")
+    #st.write("Aquí se mostrará el contenido de Looker")
 
     # Enlace del iframe de Looker Studio
     looker_iframe = """
@@ -124,5 +124,5 @@ if selected == "Inicio":
     HomePage()
 elif selected == "Consultas":
     mostrar_consultas()
-elif selected == "Looker":
+elif selected == "Analytics":
     mostrar_looker()
