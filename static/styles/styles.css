@@ -9,7 +9,7 @@ body {
 
 
 h1, h2 {
-    color: #210a93 !important; /* Cambiar color del título */
+    color: #f7f7f7 !important; /* Cambiar color del título  ##210a93*/ 
     font-style: italic;
     text-align: center;
     font-size: 36px; /* Ajuste del tamaño del título principal */
