@@ -77,7 +77,7 @@ def mostrar_consultas():
                 with st.spinner('Enviando consulta...'):
                     # Realizar la solicitud POST
                     response = requests.post(
-                        'https://europe-southwest1-firm-star-429208-k0.cloudfunctions.net/alert_validation_v1',
+                        'https://europe-west1-iactry.cloudfunctions.net/validador_alertas',
                         headers={"Content-Type": "application/json"},
                         data=json.dumps(payload)  # Convertir el diccionario a JSON
                     )
